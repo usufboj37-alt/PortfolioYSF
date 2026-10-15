@@ -281,7 +281,6 @@ h1 {
 html {
   scroll-behavior: smooth;
 }
-
 .item4:hover{
   transform: translateY(-10px) scale(1.05);
   box-shadow: 0 5px 20px blue;
