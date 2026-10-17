@@ -112,7 +112,7 @@ h1 {
   height: 400px;
   margin-left: 300px;
   animation: myAnimation 2s ease-in-out infinite alternate;
-  box-shadow: 5px #7545e8;
+  box-shadow: 0 0 10px hsla(233, 91%, 61%, 0.502);
 }
 
 @keyframes myAnimation {
@@ -288,4 +288,28 @@ html {
 
 .mrgLft{
   margin-left: 100px;
+}
+
+.item5{
+  background-color: hsl(225, 100%, 13%);
+  width: 450px;
+  
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+.skill2{
+  width: fit-content;
+  background-color: rgb(157, 173, 255);
+  color: black;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.item5:hover{
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 5px 20px blue;
 }
