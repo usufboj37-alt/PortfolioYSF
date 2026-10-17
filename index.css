@@ -892,3 +892,16 @@ body > div:has(.item4) > .display {
     transition-duration: 0.01ms !important;
   }
 }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.photo {
+  position: relative;
+  z-index: 1;
+}
