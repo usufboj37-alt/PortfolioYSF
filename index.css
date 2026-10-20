@@ -905,3 +905,57 @@ header {
   position: relative;
   z-index: 1;
 }
+
+.blue{
+  background-color:blue;
+  width: 100%;
+  margin: 0px;
+  padding:0px;
+}
+
+.fnt10{
+  font-size: clamp(19px, 1vw, 15px);
+}
+
+.grey{
+  color: #aab4c5;
+  margin: 0px;
+  padding:0px;
+}
+
+.nil{
+  margin: 0px;
+  padding:0px;
+}
+
+.sot:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 5px 20px rgba(0, 153, 255, 0.35);
+  border-radius: 50%;
+}
+
+.half{
+  width: 50%;
+  margin: 10px;
+}
+
+.fit{
+  width: 200px;
+}
+
+.input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  
+}
+
+.binput{
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
