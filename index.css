@@ -959,3 +959,21 @@ header {
   border: 1px solid #ccc;
   margin-bottom: 10px;
 }
+
+footer{
+  background-color: black;
+  
+  
+  min-height: 48px;
+  padding: 10px 22px;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+.fnt30{
+  font-size:30px;
+}
+
+.mrgL{
+  margin-left:200px;
+}
